@@ -63,26 +63,17 @@ while True:
   ---.__(___)
   """)
   
-  if comp_choice == 1:
-    if user_choice == 1:
-      print("Draw")
-    elif user_choice == 2:
-      print("You win! Congratulations!")
-    elif user_choice == 3:
-      print("Computer wins")
-  elif comp_choice == 2:
-    if user_choice == 1:
-      print("Computer wins")
-    elif user_choice == 2:
-      print("Draw")
-    elif user_choice == 3:
-      print("You win! Congratulations!")
-  elif comp_choice == 3:
-    if user_choice == 1:
-      print("You win! Congratulations!")
-    elif user_choice == 2:
-      print("Computer wins")
-    elif user_choice == 3:
-      print("Draw")
+  if comp_choice == user_choice:
+    print("Draw")
+  elif comp_choice + user_choice == 4:
+    if comp_choice < user_choice:
+        print("Computer wins")
+    else:
+        print("You win! Congratulations!")
+  else:
+    if comp_choice > user_choice:
+        print("Computer wins")
+    else:
+        print("You win! Congratulations!") 
   
   print(" ")
