@@ -1,0 +1,14 @@
+How to operate the coffee machine:
+1. This coffee machine has 3 coffees as in the menu. You can order them by either typing their name or their serial number.
+2. You have to pay the machine in coins, there are 4 types of coins:
+   Quarters = 1/4th Dollar = $0.25
+   Dime = 1/10th Dollar = $0.10
+   Nickel = 1/20th Dollar = $0.05
+   Penny = 1/100th Dollar = $0.01
+3. You can see the available ingredients by typing command 'report' when it asks for coffee input
+4. You can add ingredients by typing the following commands and then adding it by entering integer values when it asks for amount to enter:
+Commands are:
+   water_refill
+   coffee_refill
+   milk_refill
+	
