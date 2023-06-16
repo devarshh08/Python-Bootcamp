@@ -115,7 +115,7 @@ while not machine_off:
         water_refill = int(input("How much water would you like to refill: "))
         water += water_refill
     
-    elif user_ch == "refill water":
+    elif user_ch == "refill coffee":
         coffee_refill = int(input("How much coffee would you like to refill: "))
         coffee += coffee_refill
     
